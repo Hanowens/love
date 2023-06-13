@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Owen's HomeTown</title>
+</head>
+<body>
+    <h2 style="color:white; 
+    font-size:700%; 
+    text-align:center;
+
+    font-style:NanumGothic"
+     id="clock">00:00</h2>
+    <!-- "login-form" 뒤에 class="hidden"을 통해 form이 submit되는 display을 감춘다 -->
+    <form class="hidden" id="login-form">
+        <input
+        style="text-align:center;"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"/>
+        <input type="submit" value="Log In" />
+    </form>
+    <h1 style=
+    "text-align:center; 
+    color:white; 
+    font-size:200%;
+    font-style:NanumGothic;" id="greeting" class="hidden"></h1>
+    <form id="todo-form" style="text-align:center;">
+        <input type="text" placeholder="Write a To do and Press Enter" required />
+    </form>
+    <ul id="todo-list" style="text-align:center;"></ul></ul>
+    <!-- <ul은 list다> -->
+    <!-- li는 list를 만들기 위한 함수이다. -->
+    <div id="quote" style="text-align:center;">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="quotes.js"></script>
+    <script src="clock.js"></script>
+    <scirpt src="app.js"></scirpt>
+    <script src="background.js"></script>
+    <script src="todo.js"></script>
+    <script src="greeting.js"></script>
+  </body>
+  
+  </html>
+  
